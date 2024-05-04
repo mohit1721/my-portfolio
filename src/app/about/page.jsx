@@ -154,129 +154,13 @@ transition={{delay:0.2}} className=" flex gap-4 flex-wrap ">
 </div> */}
 
 </div>
-{/* EXPERIENCE CONTAINER*/}
-<div className="flex flex-col gap-12 justify-center pb-48" ref={experienceRef}>
-<motion.h1 
- initial={{ x : "-300px"}} 
- animate={isExperienceRefInView ? { x : "0" }: {}} 
-transition={{delay:0.2}} 
-className="font-bold text-2xl">EXPERIENCE</motion.h1>
-{/* EXPERIENCE LIST */}
-<motion.div
-initial={{x:"-300px"}} 
-animate={isExperienceRefInView?{x:"0"}:{}} 
-transition={{delay:0.2}}
->
+{/* EXPERIENCE CONTAINER
 
-{/* 1st part */}
-<div className="flex gap-0 justify-between h-48">
-{/* one left+right */}
-{/* <div className=""> */}
-{/* Left */}
-<div className="w-1/3 ">
-{/* JOB TITLE */}
-<div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">Senior React Engineer</div>
-{/* JOB DESCRIPTION */}
-<div className="p-3 text-sm italic">My current employment,Way better than the position before!</div>
-{/* JOB DATE */}
-<div className="p-3 text-sm font-semibold text-red-400">2023-present</div>
-{/* JOB COMPANY */}
-<div className="p-1 rounded bg-white text-sm font-semibold w-fit">Apple</div>
-</div>
-
-{/* Center -->LINE*/}
-
-<div className="w-1/6 ">
-{/* LINE */}
-<div className="w-1 h-full bg-gray-600 rounded relative">
-{/* CIRCLE */}
-<div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 ">
-
-</div>
-</div>
-
-</div>
-
-{/* Right */}
-
-<div className="w-1/3 "></div>
-
-
-</div>
-{/* 2nd part starts */}
-<div className="flex justify-between h-48">
-{/* one left+right */}
-{/* <div className=""> */}
-{/* Left */}
-<div className="w-1/3"></div>
-
-
-{/* Center -->LINE*/}
-
-<div className="w-1/6">
-{/* LINE */}
-<div className="w-1 h-full bg-gray-600 rounded relative">
-{/* CIRCLE */}
-<div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 ">
-
-</div>
-</div>
-
-</div>
-
-{/* Right */}
-<div className="w-1/3">
-{/* JOB TITLE */}
-<div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">Senior React Engineer</div>
-{/* JOB DESCRIPTION */}
-<div className="p-3 text-sm italic">My current employment,Way better than the position before!</div>
-{/* JOB DATE */}
-<div className="p-3 text-sm font-semibold text-red-400">2023-present</div>
-{/* JOB COMPANY */}
-<div className="p-1 rounded bg-white text-sm font-semibold w-fit">Apple</div>
-</div>
+*/}
 
 
 
-</div>
-{/* 3rd part start */}
-<div className="flex justify-between h-48">
-{/* one left+right */}
-{/* <div className=""> */}
-{/* Left */}
-<div className="w-1/3 ">
-{/* JOB TITLE */}
-<div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg w-fit">Senior React Engineer</div>
-{/* JOB DESCRIPTION */}
-<div className="p-3 text-sm italic">My current employment,Way better than the position before!</div>
-{/* JOB DATE */}
-<div className="p-3 text-sm font-semibold text-red-400">2023-present</div>
-{/* JOB COMPANY */}
-<div className="p-1 rounded bg-white text-sm font-semibold w-fit">Apple</div>
-</div>
 
-{/* Center -->LINE*/}
-
-<div className="w-1/6 ">
-{/* LINE */}
-<div className="w-1 h-full bg-gray-600 rounded relative">
-{/* CIRCLE */}
-<div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2 ">
-
-</div>
-</div>
-
-</div>
-
-{/* Right */}
-
-<div className="w-1/3 "></div>
-
-
-</div>
-</motion.div>
-
-</div>
 </div>
 {/* SVG CONTAINER */}
 <div className="hidden lg:block w-1/3 xl:w-1/2 sticky top-0 z-30">
