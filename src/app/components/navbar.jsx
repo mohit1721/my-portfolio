@@ -94,19 +94,22 @@ opened:{
            <span className='w-12 h-8 rounded bg-white text-black flex items-center  justify-center'> .dev</span>
         </Link>
     </div>
-
+{/* <a <a href="https://i
+<a href="https://imgbb.com/"><img src= alt="linktree" border="0"></a>
+<a href="https://imgbb.com/"><img src=alt="linkedin" border="0"></a>
+mgbb.com/"><img src="https://i.ibb.co/NYhFgxp/leetcode.png" alt="leetcode" border="0"></a>*/}
 <div className='hidden md:flex gap-4 w-1/3'>
-<Link href='https://github.com/mohit1721'>
-    <Image src="/github.png" alt="g" height={24} width={24}  />
+<Link href='https://github.com/mohit1721'> 
+    <Image src="https://i.ibb.co/jLnxSBV/github.png" alt="g" height={24} width={24}  />
 </Link>
 <Link href='https://www.linkedin.com/in/mohit-kumar-mandal-4344b3229/'>
-    <Image src="/linkedin.png" alt="g" height={24} width={24}  />
+    <Image src="https://i.ibb.co/6mBVzYY/linkedin.png"  alt="g" height={24} width={24}  />
 </Link>
 <Link href='https://leetcode.com/u/mohit1702/'>
-    <Image src="/leetcode.png" alt="g" height={24} width={24}  />
+    <Image src="https://i.ibb.co/NYhFgxp/leetcode.png" alt="g" height={24} width={24}  />
 </Link>
 <Link href='https://linktr.ee/mk1702'>
-    <Image src="/linktree.png" alt="g" height={24} width={24}  />
+    <Image src="https://i.ibb.co/bvnYMpZ/linktree.png" alt="g" height={24} width={24}  />
 </Link>
 </div>
 

@@ -44,8 +44,8 @@ const isExperienceRefInView=useInView(experienceRef,{margin:"-100px"})//{once:tr
  and websites, ensuring seamless digital experiences. With expertise in MongoDB, Express.js, React, and Node.js,
   we deliver high-quality solutions tailored to meet our clients needs, making their visions a reality. </p>
 <span className="italic">For seamless experiences, we bridge vision with reality.</span>
-{/* SVG SIGNATURE--> */}
-<Image src='/sign.png' height={328} width={228} className="self-end top-0" alt="mysign"/>
+{/* SVG SIGNATURE--> <a href="https://ibb.co/JtcLt1m"><img src="https://i.ibb.co/W5H95hG/sign.png" alt="sign" border="0"></a>*/}
+<Image src='https://i.ibb.co/W5H95hG/sign.png' height={328} width={228} className="self-end top-0" alt="mysign"/>
   {/* BIOGRAPHY SCROLL SVG */}
   <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
