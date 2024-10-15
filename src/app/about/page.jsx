@@ -126,7 +126,7 @@ transition={{delay:0.2}} className=" flex gap-4 flex-wrap ">
 
 {/* SCROLL SVG */}
   {/* SKILL SCROLL SVG */}
-  <motion.svg
+  {/* <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
               animate={{ opacity: 1, y: "10px" }}
               transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
@@ -147,17 +147,14 @@ transition={{delay:0.2}} className=" flex gap-4 flex-wrap ">
                 stroke="#000000"
                 strokeWidth="1"
               ></path>
-  </motion.svg>
+  </motion.svg> */}
 
 {/* <div>
   
 </div> */}
 
 </div>
-{/* EXPERIENCE CONTAINER
-
-*/}
-
+{/* EXPERIENCE CONTAINER*/}
 
 
 

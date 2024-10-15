@@ -16,13 +16,21 @@ const items = [
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
+    title: "Code Sync",
+    desc: "Code Sync is a realtime collaborative code editor which syncs code in realtime ",
+    img: "https://i.ibb.co/JqB2GXX/codeSync.jpg",
+    link: "https://codes-sync.vercel.app",
+  },
+  {
+    id: 3,
+    color: "from-blue-300 to-violet-300",
     title: "Dev Detective",
     desc: "Dev Detective is a web application designed to quickly retrieve information about GitHub users.Users can enter a GitHub username into the search bar, triggering a request to the GitHub API. The application then displays relevant user data ",
     img: "https://i.ibb.co/7R6wYLh/dev-det.jpg",
     link: "https://mohit1721.github.io/DevDetective/",
   },
   {
-    id: 3,
+    id: 4,
     color: "from-violet-300 to-purple-300",
     title: "Password Generator",
     desc: "Create secure passwords with custom options. HTML for structure, CSS for style, and JavaScript for generating random passwords. Simple, effective, and user-friendly.",
@@ -31,7 +39,7 @@ const items = [
   },
 
   {
-    id: 4,
+    id: 5,
     color: "from-red-300 to-blue-300",
     title: "Weather App",
     desc: "Our weather app is a user-friendly tool designed to provide real-time weather information based on the user's current location. With a clean and intuitive interface, users can easily access crucial weather data at their fingertips.",
@@ -39,7 +47,7 @@ const items = [
     link: "https://mohit1721.github.io/WeatherApp/",
   },
   {
-    id: 5,
+    id: 6,
     color: "from-red-300 to-blue-300",
     title: "Tic Tae Toe",
     desc: "Ultimate Tic-Tac-Toe brings the classic game of Tic-Tac-Toe to life with a modern twist. This web-based game offers players an engaging and interactive experience, featuring a sleek design and intuitive gameplay.",
@@ -48,7 +56,7 @@ const items = [
   },
   
   {
-    id: 6,
+    id: 7,
     color: "from-red-300 to-blue-300",
     title: "Space X",
     desc: "Welcome to SpaceX Mission Control! Experience the thrill of space exploration right from your browser. Our landing page provides you with the latest updates, mission information, and a glimpse into the future of space travel.",
@@ -56,7 +64,7 @@ const items = [
     link: "https://mohit1721.github.io/spaxe-X/",
   },
   {
-    id: 7,
+    id: 8,
     color: "from-blue-300 to-green-300",
     title: "Animated Product",
     desc: "Dynamic chair animation showcasing CSS skills",

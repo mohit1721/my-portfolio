@@ -29,17 +29,16 @@ const handleDownloadCV = () => {
     document.body.removeChild(link);
 };
 
-  return (<motion.div className="h-[100vh] w-[100vw]" 
+  return (<motion.div className="h-[100%] md:h-full w-[100vw] overflow-y-auto lg:overflow-y-hidden" 
   initial={{y:"-200vh"}} 
   transition={{duration:1}}
   animate={{y:"0%"}}>
 
-<div className="flex flex-col h-full gap-y-20 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
+<div className="flex flex-col h-[120%] md:h-full gap-y-20 lg:flex-row px-6 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
   {/* IMAGE CONTAINER
-
    */}
   
-<div className="h-1/2 relative lg:h-full lg:w-1/2">
+<div className="md:h-1/2 h-1/4 relative lg:h-full lg:w-1/2">
   <Image src="https://i.ibb.co/RzVHFjz/hero.png" alt="" fill className="object-contain"/>
 </div>
   {/* TEXT CONTAINER */}
@@ -51,18 +50,17 @@ Crafting Digital Experience, Designing Tommorow.
 {/* DESC.
 <p> */}
   <p className="text-md">
-  Welcome to my digital canvas,where innovative and creativity 
-  converege.With a keen eye for aesthetics and a mastery of code, my 
-  portfolio showcase a diverse collection of projects that reflect my
-  commitment to excellence.
+  I am a ReactJS and MERN stack developer with a proven track record in spearheading the development of innovative projects such as StudyNotion,
+aimed at transforming education. Eager to contribute to a dynamic organization with a focus on innovation and
+excellence.
+
   </p>
 {/* BUTTONS */}
 <div className="w-full flex gap-4">
 <Link href='/portfolio'>
 <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">View My Work</button>
 </Link>
-  
-  
+
   <button
   onClick={handleDownloadCV}
    className="p-4 rounded-lg ring-1 ring-black">Resume</button>
@@ -70,7 +68,7 @@ Crafting Digital Experience, Designing Tommorow.
 </div>
   </div>
   
-  </div>;
+  </div>
   </motion.div>)
   
 };

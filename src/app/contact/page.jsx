@@ -5,6 +5,7 @@ import Image from "next/image";
 import emailjs from '@emailjs/browser';
 import { useState,useRef } from "react";
 import { TypeAnimation } from "react-type-animation";
+import ContactForm from "../components/contactForm";
 const ContactPage = () => {
 
   const text="Say Hello"
@@ -41,7 +42,7 @@ const ContactPage = () => {
     transition={{duration:1}}
     animate={{y:"0%"}}>
 
-<div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+<div className="h-[120%] overflow-y-scroll w-11/12 mx-auto justify-between max-w-maxContent flex flex-col lg:flex-row px-6 sm:px-8 md:px-12 lg:px-20 xl:px-48">
 {/* TEXT CONTAINER */}
 <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
 
@@ -82,13 +83,15 @@ const ContactPage = () => {
   </div>
 </div>
 {/* FORM CONTAINER */}
+{/* 
+<div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center ">
 <form 
 onSubmit={sendEmail}
 ref={form}
  className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 gap-8 justify-center p-24 rounded-xl text-xl flex flex-col ">
 <span>Dear Mohit Kumar,</span>
 <textarea
-     rows={6}
+     rows={6} cols={40}
             className="bg-transparent border-b-2 border-b-black outline-none resize-none"
             name="user_message"
           />
@@ -113,6 +116,18 @@ className="bg-purple-200 rounded font-semibold text-gray-600 p-4"
             </span>
           )}
 </form>
+</div>
+ */}
+
+{/* 
+ */}
+ <div className="h-full mt-10 lg:h-full lg:w-1/2 flex items-center justify-center ">
+ <ContactForm/>
+ </div>
+
+
+
+
 </div>
   
     </motion.div>
