@@ -11,7 +11,7 @@ const handleDownloadCV = () => {
   // Your download CV function
 
     // Replace '/path/to/resume.pdf' with the actual path to your PDF resume
-    const resumeUrl = 'https://drive.google.com/file/d/1fGSFWCyx3zv0S1whcTMsyMfOF7XvoLD1/view?usp=sharing';
+    const resumeUrl = 'https://drive.google.com/file/d/1h9iFrojXni8_3nZxXGIyRTFI_iaq8Kaz/view?usp=drivesdk';
   
     // Create a hidden anchor element
     const link = document.createElement('a');
