@@ -129,7 +129,7 @@ animate={open?"opened" : "closed"}
 {/* MENU LIST */}
 
 {
-   open && (<motion.div variants={listVariants} initial="closed" animate="opened" className='absolute top-0 left-0 z-40 w-screen h-screen bg-black text-yellow-50 flex flex-col items-center justify-center gap-8 text-4xl '>
+   open && (<motion.div variants={listVariants} initial="closed" animate="opened" className='absolute top-0 left-0 z-40 w-full h-full bg-black text-yellow-50 flex flex-col items-center justify-center gap-8 text-4xl '>
 {
     links.map((link)=>(
         <motion.div variants={listItemVariants} key={link.title} className=''>

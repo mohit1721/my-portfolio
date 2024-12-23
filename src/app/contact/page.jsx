@@ -42,7 +42,7 @@ const ContactPage = () => {
     transition={{duration:1}}
     animate={{y:"0%"}}>
 
-<div className="h-[120%] overflow-y-scroll w-11/12 mx-auto justify-between max-w-maxContent flex flex-col lg:flex-row px-6 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+<div className="h-[90%] overflow-y-scroll w-11/12 mx-auto justify-between max-w-maxContent flex flex-col lg:flex-row px-6 sm:px-8 md:px-12 lg:px-20 xl:px-48">
 {/* TEXT CONTAINER */}
 <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
 

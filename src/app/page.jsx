@@ -29,7 +29,7 @@ const handleDownloadCV = () => {
     document.body.removeChild(link);
 };
 
-  return (<motion.div className="h-[100%] md:h-full w-[100vw] overflow-y-auto lg:overflow-y-hidden" 
+  return (<motion.div className="h-[100%] md:h-full w-full  lg:overflow-y-hidden" 
   initial={{y:"-200vh"}} 
   transition={{duration:1}}
   animate={{y:"0%"}}>

@@ -87,7 +87,7 @@ const x=useTransform(scrollYProgress,[0,1],["0%","-80%"])
 
 
   return (
-    <motion.div className="h-full w-screen" 
+    <motion.div className="h-screen w-screen" 
   initial={{y:"-200vh"}} 
   transition={{duration:1}}
   animate={{y:"0%"}}>
