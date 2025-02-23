@@ -67,7 +67,7 @@ const ContactPage = () => {
               sequence={[
                 "Hello", 1000, // English
                 "નમસ્તે",1000,
-                "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",1000,//punjabi
+              
                 "হ্যালো", 1000, // Tamil <a href="https://ibb.co/82LC3gy"><img src="" alt="emoji" border="0"></a>                
                
               ]}

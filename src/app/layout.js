@@ -4,9 +4,10 @@ import TransitionProvider from "./components/transitionProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Mohit's Portfolio",
-  description: "The Best Animated Portfolio",
+  title: "Mohit Kumar Mandal | Portfolio",
+  description: "Explore Mohit's dynamic and interactive portfolio showcasing projects, skills, and achievements.",
 };
+
 
 export default function RootLayout({ children }) {
   return (

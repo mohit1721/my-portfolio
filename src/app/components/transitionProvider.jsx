@@ -9,7 +9,7 @@ const TransitionProvider = ({children}) => {
     const pathName=usePathname();//jb route change hoga tbhi trigger krega ye..so use key..
   return (
     <AnimatePresence mode='wait'>
-    <div key={pathName} className="w-full h-full bg-gradient-to-b from-blue-100 to-red-100 ">
+    <div key={pathName} className="w-full min-h-screen bg-gradient-to-b from-blue-100 to-red-100 ">
       {/* 1st layer */}
       <motion.div className='h-full w-full fixed bg-black rounded-b-[100px] z-40'
     animate={{height:"0vh"}}
@@ -32,10 +32,10 @@ const TransitionProvider = ({children}) => {
     
       />
       {/* //black backgroundColor for transition ,for diff. routes..about/contact.. */}
-       <div className="h-24">
+       <div className="h-20">
           <Navbar />
         </div>
-        <div className="h-full md:h-[100vh]">{children}</div>
+        <div className="h-full min-h-screen md:h-[100vh]">{children}</div>
      
     </div>
     

@@ -5,13 +5,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { TypeAnimation } from "react-type-animation";
 const Homepage = () => {
-
-// https://drive.google.com/file/d/1YRY1aKJgzdooGE1qKrcrRjtf1wwnTGIS/view?usp=sharing
+ 
 const handleDownloadCV = () => {
   // Your download CV function
 
     // Replace '/path/to/resume.pdf' with the actual path to your PDF resume
-    const resumeUrl = 'https://drive.google.com/file/d/1h9iFrojXni8_3nZxXGIyRTFI_iaq8Kaz/view?usp=drivesdk';
+    const resumeUrl = 'https://drive.google.com/file/d/1KpkOeDF0N0BvYGGfL_YLKtSoMq9ZjGh0/view?usp=drivesdk';
   
     // Create a hidden anchor element
     const link = document.createElement('a');
@@ -29,12 +28,12 @@ const handleDownloadCV = () => {
     document.body.removeChild(link);
 };
 
-  return (<motion.div className="h-[100%] md:h-full w-full  lg:overflow-y-hidden" 
+  return (<motion.div className="h-full w-full lg:overflow-y-hidden" 
   initial={{y:"-200vh"}} 
   transition={{duration:1}}
   animate={{y:"0%"}}>
 
-<div className="flex flex-col h-[120%] md:h-full gap-y-20 lg:flex-row px-6 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
+<div className="flex flex-col min-h-screen h-full h-[120%] md:h-full gap-y-20 lg:flex-row px-6 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
   {/* IMAGE CONTAINER
    */}
   
@@ -50,7 +49,7 @@ Crafting Digital Experience, Designing Tommorow.
 {/* DESC.
 <p> */}
   <p className="text-md">
-  I am a ReactJS and MERN stack developer with a proven track record in spearheading the development of innovative projects such as StudyNotion,
+  I am a ReactJS and MERN stack developer with a proven track record in spearheading the development of innovative projects such as StudyNotion,Medguardian and Safereport
 aimed at transforming education. Eager to contribute to a dynamic organization with a focus on innovation and
 excellence.
 

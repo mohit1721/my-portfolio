@@ -25,9 +25,9 @@ const isExperienceRefInView=useInView(experienceRef,{margin:"-100px"})//{once:tr
 
 <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
 {/* TEXT CONTAINER */}
-<div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
+<div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-4 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:w-1/2">
 {/* BIOGRAPHY CONTAINER*/}
-<div className="flex flex-col gap-10 justify-center">
+<div className="flex flex-col gap-1 justify-center">
  {/* BIOGRAPHY IMAGE */}
 {/* <a href="https://ibb.co/fkDbmcZ"><img src="https://i.ibb.co/0CskPw1/picofme.png" alt="picofme" border="0"></a> */}
     <Image
@@ -39,13 +39,14 @@ const isExperienceRefInView=useInView(experienceRef,{margin:"-100px"})//{once:tr
             />
 
 <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
-<p className="text-lg">I am a Full Stack Developer excel in MERN stack development,
- adept in both frontend and backend. I craft user-friendly web applications 
- and websites, ensuring seamless digital experiences. With expertise in MongoDB, Express.js, React, and Node.js,
-  we deliver high-quality solutions tailored to meet our clients needs, making their visions a reality. </p>
+<p className="text-lg">
+Full-stack developer specializing in the MERN stack with expertise in building high-performance,
+ scalable applications. Strong background in secure application development with experience in optimizing API performance, secure authentication, and database management. 
+Passionate about solving complex problems and continuously improving software efficiency.
+   </p>
 <span className="italic">For seamless experiences, we bridge vision with reality.</span>
 {/* SVG SIGNATURE--> <a href="https://ibb.co/JtcLt1m"><img src="https://i.ibb.co/W5H95hG/sign.png" alt="sign" border="0"></a>*/}
-<Image src='https://i.ibb.co/W5H95hG/sign.png' height={328} width={228} className="self-end top-0" alt="mysign"/>
+<Image src='https://i.ibb.co/W5H95hG/sign.png' height={80} width={198} className="self-end top-0" alt="mysign"/>
   {/* BIOGRAPHY SCROLL SVG */}
   <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
@@ -56,6 +57,7 @@ const isExperienceRefInView=useInView(experienceRef,{margin:"-100px"})//{once:tr
               xmlns="http://www.w3.org/2000/svg"
               width={50}
               height={50}
+              className=""
             >
               <path
                 d="M5 15C5 16.8565 5.73754 18.6371 7.05029 19.9498C8.36305 21.2626 10.1435 21.9999 12 21.9999C13.8565 21.9999 15.637 21.2626 16.9498 19.9498C18.2625 18.6371 19 16.8565 19 15V9C19 7.14348 18.2625 5.36305 16.9498 4.05029C15.637 2.73754 13.8565 2 12 2C10.1435 2 8.36305 2.73754 7.05029 4.05029C5.73754 5.36305 5 7.14348 5 9V15Z"
@@ -105,7 +107,7 @@ transition={{delay:0.2}} className=" flex gap-4 flex-wrap ">
     Node Js
   </div>
   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:text-black hover:bg-white">
-    Tailwind
+    TailwindCSS
   </div>
   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:text-black hover:bg-white">
     Boootstrap
@@ -113,6 +115,9 @@ transition={{delay:0.2}} className=" flex gap-4 flex-wrap ">
   <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:text-black hover:bg-white">
    C/C++
   </div>
+  <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+  SQL
+</div>
   <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
   Git
 </div>
@@ -170,3 +175,5 @@ transition={{delay:0.2}} className=" flex gap-4 flex-wrap ">
 }
 
 export default AboutPage
+// **
+ 
