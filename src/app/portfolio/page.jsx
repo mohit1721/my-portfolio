@@ -131,14 +131,14 @@ const PortfolioPage = () => {
                 className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color} p-8`}
                 key={idx}
               >
-                <div className="flex flex-col gap-6 text-white w-[500px] text-center bg-white bg-opacity-20 backdrop-blur-md p-6 rounded-lg shadow-xl">
+                <div className="flex flex-col gap-8 w-[350px] text-white md:w-[500px] text-center bg-white bg-opacity-20 backdrop-blur-md p-6 rounded-lg shadow-xl">
                   {/* Project Title */}
                   <h1 className="text-xl font-bold md:text-4xl lg:text-4xl xl:text-5xl">
                     {item.title}
                   </h1>
 
                   {/* Project Image (Fixed Size) */}
-                  <Link href={item.link} className="relative w-[400px] h-[250px]">
+                  <Link href={item.link} className="relative w-[250px] md:w-[400px] h-[250px]">
                     <Image src={item.img} alt={item.title} fill className="rounded-lg object-cover" loading="lazy" />
                   </Link>
 
