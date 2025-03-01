@@ -8,6 +8,14 @@ const projects= [
         link: "https://mystudynotion.vercel.app/",
       },
       {
+        // id: 3,
+        color: "from-pink-300 to-purple-300",
+        title: "Safereport",
+        desc: "Safereport - A secure crime reporting and anonymous submission platform ensuring data privacy. Features **end-to-end encrypted communication**, status tracking, secure file uploads, and emergency categorization. Built with a **no-logs policy** and periodic audits to enhance trust. Successfully tested with **5+ beta users**. 🚔🔒",
+        img: "https://i.ibb.co/YBGjwXfL/Screenshot-2025-02-23-150817.jpg",
+        link: "https://safetoreport.vercel.app",
+      },
+      {
         // id: 2,
         color: "from-blue-300 to-green-300",
         title: "Medguardian",
@@ -15,14 +23,7 @@ const projects= [
         img: "https://i.ibb.co/SDBcvR3x/medguardian.jpg",
         link: "https://medguardian.vercel.app/",
       },
-      {
-        // id: 3,
-        color: "from-pink-300 to-purple-300",
-        title: "Safereport",
-        desc: "Safereport - A secure crime reporting and anonymous submission platform ensuring data privacy. Features **end-to-end encrypted communication**, status tracking, secure file uploads, and emergency categorization. Built with a **no-logs policy** and periodic audits to enhance trust. Successfully tested with **5+ beta users**. 🚔🔒",
-        img: "https://i.ibb.co/YBGjwXfL/Screenshot-2025-02-23-150817.jpg",
-        link: "https://github.com/mohit1721/safe-report",
-      },
+   
 
       {
         // id: 4,
