@@ -1,12 +1,13 @@
 const projects= [
-    {
-        // id: 1,
-        color: "from-red-300 to-blue-300",
-        title: "Studynotion",
-        desc: "StudyNotion is a versatile and intuitive ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.",
-        img: "https://i.ibb.co/sPwfv16/studynotion-laptop.jpg",
-        link: "https://mystudynotion.vercel.app/",
-      },
+    // {
+    //     // id: 1,
+    //     // color: "from-red-300 to-blue-300",
+    //     // title: "Studynotion",
+    //     // desc: "StudyNotion is a versatile and intuitive ed-tech platform that enables users to create, consume, and rate educational content. The platform is built using the MERN stack, which includes ReactJS, NodeJS, MongoDB, and ExpressJS.",
+    //     // img: "https://i.ibb.co/sPwfv16/studynotion-laptop.jpg",
+    //     // link: "https://mystudynotion.vercel.app/",
+
+    //   },
       {
         // id: 3,
         color: "from-pink-300 to-purple-300",
